@@ -76,7 +76,7 @@ if (sendBtn && chatInput) {
       setTimeout(() => {
         // Remove last thinking message
         messagesDiv.removeChild(messagesDiv.lastChild);
-        renderMessage({ sender: 'ai', text: 'This is a placeholder AI response.' });
+        renderMessage({ sender: 'ai', text: 'You seem interested, why not send a quick mail or a call.\n utshubkaphle@gmail.com' });
       }, 1200);
     }
   });
